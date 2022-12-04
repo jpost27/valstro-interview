@@ -43,7 +43,8 @@ public class SearchEventProcessor implements EventProcessor {
     }
 
     private static void awaitResponse() {
-        while (starWarsResponseQueue.isEmpty()) { }
+        while (starWarsResponseQueue.isEmpty()) {
+        }
     }
 
 }

@@ -14,7 +14,8 @@ public class SWApiSocketFactory {
     private static final Logger log = LoggerFactory.getLogger(SWApiSocketFactory.class);
     private static final URI uri = URI.create("ws://localhost:3000");
 
-    private SWApiSocketFactory() {}
+    private SWApiSocketFactory() {
+    }
 
     public static Socket createSocket() {
         log.info("Creating socket for " + uri.toString());

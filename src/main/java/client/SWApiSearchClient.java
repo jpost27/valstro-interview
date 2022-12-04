@@ -34,6 +34,7 @@ public class SWApiSearchClient implements SocketClient {
 
     /**
      * send a message to the server
+     *
      * @param query
      * @return
      */
@@ -43,6 +44,7 @@ public class SWApiSearchClient implements SocketClient {
 
     /**
      * receive a message from the server
+     *
      * @param fn
      */
     public Emitter listen(Emitter.Listener fn) {
@@ -51,6 +53,7 @@ public class SWApiSearchClient implements SocketClient {
 
     /**
      * disconnect from the service
+     *
      * @return
      */
     public Socket disconnect() {
