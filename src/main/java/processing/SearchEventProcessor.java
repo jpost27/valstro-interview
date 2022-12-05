@@ -25,6 +25,10 @@ public class SearchEventProcessor implements EventProcessor {
         }
     }
 
+    /**
+     * Processes user input. prints all characters from SWAPI that contain the user input
+     * @param input
+     */
     public void process(String input) {
         if (!starWarsResponseQueue.isEmpty()) {
             starWarsResponseQueue.clear();
@@ -51,6 +55,10 @@ public class SearchEventProcessor implements EventProcessor {
         }
     }
 
+    /**
+     * continues waiting for the queue to be filled as long as the socket is connected
+     * @return boolean: true if processing should continue or false if the connection has disconnected
+     */
     private boolean awaitResponse() {
         while (starWarsResponseQueue.isEmpty()) {
             if (!client.getSocket().connected()) {
