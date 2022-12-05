@@ -10,7 +10,7 @@ public class LoggerFactory {
 
     public static Logger getLogger(Class<?> clazz) {
         Logger logger = Logger.getLogger(clazz.getName());
-        logger.setLevel(Level.WARNING);
+        logger.setLevel(Level.OFF);
         return logger;
     }
 

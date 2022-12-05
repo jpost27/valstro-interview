@@ -24,7 +24,7 @@ public class SWApiSocketFactory {
                 .build();
 
         options.callFactory = new OkHttpClient.Builder()
-                .readTimeout(1, TimeUnit.SECONDS) // important for HTTP long-polling
+                .readTimeout(2, TimeUnit.SECONDS) // important for HTTP long-polling
                 .build();
 
         Socket socket = IO.socket(uri, options);

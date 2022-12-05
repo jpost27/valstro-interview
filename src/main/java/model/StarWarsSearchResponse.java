@@ -35,11 +35,7 @@ public class StarWarsSearchResponse implements Serializable {
             setName(jsonObject.getString("name"));
         }
         if (jsonObject.has("films")) {
-            int filmsLength = jsonObject.getJSONArray("films").length();
-            this.films = new String[filmsLength];
-            for (int index = 0; index < filmsLength; index++) {
-                this.films[index] = (String) jsonObject.getJSONArray("films").get(index);
-            }
+            this.films = jsonObject.getString("films").split(", ");
         }
         if (jsonObject.has("error")) {
             setError(jsonObject.getString("error"));

@@ -26,7 +26,7 @@ public class Main {
             System.out.print("What character would you like to search for? ");
             input = scanner.nextLine();
             log.info("User input: '" + input + "'.");
-            if (input.equals("exit")) {
+            if (input.equals("EXIT")) {
                 System.out.println("Exiting application...");
                 break;
             }

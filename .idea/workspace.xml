@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dacd3598-17a5-43ca-9870-ebae344e2a8e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/SWApiSearchClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/client/SocketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/LoggerFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factory/SWApiSocketFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/StarWarsSearchResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/processing/EventProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/processing/EventQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/processing/SearchEventProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/processing/SearchEventQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/joshuapost.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/LoggerFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/LoggerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/factory/SWApiSocketFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/factory/SWApiSocketFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/StarWarsSearchResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/StarWarsSearchResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/processing/SearchEventProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/processing/SearchEventProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/client/SWApiSearchClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/client/SWApiSearchClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/LoggerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factory/LoggerFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/factory/SWApiSocketFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/factory/SWApiSocketFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/StarWarsSearchResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/StarWarsSearchResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/processing/SearchEventProcessor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/processing/SearchEventProcessor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/processing/SearchEventQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/processing/SearchEventQueue.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,22 +99,26 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="242" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1670111904646" />
-    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1670136382214">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom" timestamp="1670212199376">
+      <screen x="0" y="25" width="1792" height="1010" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1670136382214" />
-    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1670136382213">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="318" key="GridCell.Tab.0.bottom/0.25.1792.1010@0.25.1792.1010" timestamp="1670212199376" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center" timestamp="1670212199375">
+      <screen x="0" y="25" width="1792" height="1010" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1670136382213" />
-    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1670136382212">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="318" key="GridCell.Tab.0.center/0.25.1792.1010@0.25.1792.1010" timestamp="1670212199375" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left" timestamp="1670212199374">
+      <screen x="0" y="25" width="1792" height="1010" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1670136382212" />
-    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1670136382213">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="318" key="GridCell.Tab.0.left/0.25.1792.1010@0.25.1792.1010" timestamp="1670212199374" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right" timestamp="1670212199375">
+      <screen x="0" y="25" width="1792" height="1010" />
     </state>
     <state width="1750" height="318" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1670136382213" />
+    <state width="1750" height="318" key="GridCell.Tab.0.right/0.25.1792.1010@0.25.1792.1010" timestamp="1670212199375" />
     <state x="405" y="196" key="SettingsEditor" timestamp="1670034483729">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
