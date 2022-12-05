@@ -34,6 +34,7 @@ public class SearchEventProcessor implements EventProcessor {
             starWarsResponseQueue.clear();
         }
         emitter = client.emit(input);
+        System.out.println("Searching for " + input + "...");
         boolean continueWaiting = true;
         while (continueWaiting) {
             if (awaitResponse()) {
